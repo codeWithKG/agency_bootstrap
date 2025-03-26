@@ -1,0 +1,201 @@
+body {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.title-md {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.title-sm {
+  font-size: 35px;
+}
+
+.btn-hero {
+  background-color: #fa983a;
+  color: #fff;
+  padding: 16px 40px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+.btn-hero:hover {
+  background-color: #fad390;
+  color: #262626;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
+#main_menu {
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 10px #ddd;
+}
+
+#mainnav li {
+  margin: 0 8px;
+}
+#mainnav a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #262626;
+}
+#mainnav a:hover {
+  color: #fa983a;
+}
+#mainnav a.active {
+  color: #fa983a;
+}
+
+#slider h2 {
+  color: #fff;
+}
+#slider p {
+  color: #fff;
+  font-size: 24px;
+}
+
+#about {
+  padding-top: 120px;
+}
+#about p {
+  font-size: 18px;
+}
+
+#services {
+  padding-top: 120px;
+}
+#services p {
+  font-size: 18px;
+}
+#services i {
+  color: #fa983a;
+  font-size: 50px;
+}
+#services .card {
+  background: #f6f6f6;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+#services .card:hover {
+  box-shadow: 5px 5px 15px #ddd;
+}
+
+#projects {
+  padding-top: 120px;
+}
+#projects .card img {
+  transition: 0.5s;
+}
+#projects .card img:hover {
+  transform: scale(1.2);
+}
+
+#teams {
+  padding-top: 120px;
+}
+#teams .card:hover .card-body {
+  width: 100%;
+}
+#teams .card-body {
+  background-color: #fa983a;
+  height: 520px;
+  width: 75%;
+  transition: 0.5s;
+}
+#teams ul.social {
+  margin: 0 0 250px;
+  padding: 0 20px 0 0;
+  list-style: none;
+  text-align: right;
+}
+#teams ul.social li {
+  display: block;
+  margin-bottom: 15px;
+}
+#teams ul.social li a {
+  color: #262626;
+  font-size: 20px;
+}
+#teams ul.social li a:hover {
+  color: #f6f6f6;
+}
+
+#newsletter {
+  background: #fad390;
+}
+#newsletter h4 {
+  color: #000;
+  margin: 0;
+}
+#newsletter button {
+  background-color: #fff;
+  color: #262626;
+  border-radius: 0;
+  padding: 15px 60px;
+}
+#newsletter button:hover {
+  background-color: #fa983a;
+  color: #fff;
+}
+
+#footer {
+  background-color: #262626;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+#footer h3 {
+  font-size: 20px;
+}
+#footer p {
+  color: #f6f6f6;
+}
+#footer i {
+  margin-right: 10px;
+}
+#footer ul a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+#footer ul a:hover {
+  color: #fa983a;
+}
+#footer ul span {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+}
+#footer input {
+  border: 0;
+  border-radius: none;
+  background: #595959;
+}
+#footer input[type=submit] {
+  background-color: #fad390;
+  width: 100%;
+  padding: 15px;
+  color: #262626;
+  transition: 0.5;
+}
+#footer input[type=submit]:hover {
+  background-color: #fa983a;
+  color: #fff;
+}/*# sourceMappingURL=custom.css.map */

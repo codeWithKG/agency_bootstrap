@@ -1,0 +1,18 @@
+#services{
+    padding-top:$paddingLg;
+    p{
+        font-size: 18px;
+    }
+    i{
+        color: $primaryColor;
+        font-size: 50px;
+    }
+    .card{
+        background: $lightColor;
+        transition: 0.5s;
+        border-radius: 10px;
+        &:hover{
+            box-shadow: 5px 5px 15px #ddd;
+        }
+    }
+}

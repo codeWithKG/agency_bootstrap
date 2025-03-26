@@ -1,0 +1,49 @@
+#footer {
+  background-color: $blackColor;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    color: $lightColor;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+
+  ul {
+    a {
+      color: $lightColor;
+      text-decoration: none;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+    span {
+      display: block;
+      color: #fff;
+      font-size: 13px;
+    }
+  }
+
+  input{
+    border: 0;
+    border-radius: none;
+    background: #595959;
+}
+
+input[type="submit"]{
+background-color: $secondaryColor;
+width: 100%;
+padding: 15px;
+color: $blackColor;
+transition: 0.5;
+&:hover{
+    background-color: $primaryColor;
+    color: #fff;
+}
+}
+}

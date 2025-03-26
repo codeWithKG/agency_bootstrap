@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency Website</title>
+    <link rel="shorcut icon" href="./img/favicon.png" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./scss/custom.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#main_menu">
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light sticky-top py-4"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./img/logo.png" alt="" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainnav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainnav" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a href="#slider" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#work" class="nav-link">Work</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li>
+              <a href="#teams" class="nav-link">Teams</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="slider"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner_01.jpg" alt="" class="img-fluid d-block" />
+          <div class="position-absolute top-0 start-0 h-100 w-100">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <h2 class="title">Business</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae laboriosam, earum debitis aspernatur sequi
+                    accusantium necessitatibus facere temporibus non id ab fugit
+                    quidem, ea voluptates! Molestiae excepturi voluptate illo
+                    facilis.
+                  </p>
+                  <p>
+                    <a class="btn btn-hero">Contact Us</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item active">
+          <img src="./img/banner_02.jpg" alt="" class="img-fluid d-block" />
+          <div class="position-absolute top-0 start-0 h-100 w-100">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <h2 class="title">Marketing</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae laboriosam, earum debitis aspernatur sequi
+                    accusantium necessitatibus facere temporibus non id ab fugit
+                    quidem, ea voluptates! Molestiae excepturi voluptate illo
+                    facilis.
+                  </p>
+                  <p>
+                    <a class="btn btn-hero">Contact Us</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item active">
+          <img src="./img/banner_03.jpg" alt="" class="img-fluid d-block" />
+          <div class="position-absolute top-0 start-0 h-100 w-100">
+            <div class="container h-100">
+              <div class="row h-100">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <h2 class="title">Development</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae laboriosam, earum debitis aspernatur sequi
+                    accusantium necessitatibus facere temporibus non id ab fugit
+                    quidem, ea voluptates! Molestiae excepturi voluptate illo
+                    facilis.
+                  </p>
+                  <p>
+                    <a class="btn btn-hero">Contact Us</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="carousel-control-prev"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button
+        type="button"
+        class="carousel-control-next"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <section id="about" class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h2 class="title-md">About Us</h2>
+            <h6 class="title-sm">Read our Company</h6>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur quas officia commodi ducimus maxime doloribus omnis
+              ratione quae modi explicabo libero natus odio earum facere,
+              voluptates est. Dolorem, minus reprehenderit.
+            </p>
+            <a href="" class="btn btn-hero"> Learn More</a>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img src="./img/about.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-2 text-center">
+            <h2 class="title-md">What we do ?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus earum quidem qui odio quisquam omnis! Voluptatum,
+              mollitia. Tempore rem esse, nihil praesentium pariatur omnis
+              sapiente necessitatibus aperiam, rerum itaque quas?
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 pt-2">
+            <div class="card p-4 border-0">
+              <div class="card-body">
+                <i class="bi bi-activity"></i>
+                <h4 class="card-title">Business Stategy</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+                  nemo dicta reprehenderit earum voluptate facilis, accusantium,
+                  ducimus ratione, molestias expedita omnis odit cum modi
+                  quibusdam delectus explicabo in assumenda doloribus!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 pt-2">
+            <div class="card p-4 border-0">
+              <div class="card-body">
+                <i class="bi bi-display"></i>
+                <h4 class="card-title">Web Development</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+                  nemo dicta reprehenderit earum voluptate facilis, accusantium,
+                  ducimus ratione, molestias expedita omnis odit cum modi
+                  quibusdam delectus explicabo in assumenda doloribus!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 pt-2">
+            <div class="card p-4 border-0">
+              <div class="card-body">
+                <i class="bi bi-people-fill"></i>
+                <h4 class="card-title">Marketing & Reporting</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+                  nemo dicta reprehenderit earum voluptate facilis, accusantium,
+                  ducimus ratione, molestias expedita omnis odit cum modi
+                  quibusdam delectus explicabo in assumenda doloribus!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="pb-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-md-8 offset-2 text-center">
+            <h2 class="title-md">Recent Projects</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus earum quidem qui odio quisquam omnis! Voluptatum,
+              mollitia. Tempore rem esse, nihil praesentium pariatur omnis
+              sapiente necessitatibus aperiam, rerum itaque quas?
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 overflow-hidden">
+              <img src="./img/project-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 overflow-hidden">
+              <img src="./img/project-2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 overflow-hidden">
+              <img src="./img/project-3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 overflow-hidden">
+              <img src="./img/project-4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 overflow-hidden">
+              <img src="./img/project-5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card border-0 overflow-hidden">
+              <img src="./img/project-6.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teams" class="pb-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h2 class="title-md">Meet the Team</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi facere laboriosam natus omnis expedita nisi sequi
+              dolorem rerum non odit saepe vero dolor beatae veniam, quasi
+              facilis porro culpa! Accusamus?
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-5">
+          <div class="col-md-4 pt-2">
+            <div class="card border-0">
+              <img
+                src="./img/team-1.jpg"
+                alt=""
+                class="position-absolute top-0 start-0 w-75"
+              />
+              <div class="card-body">
+                <ul class="social">
+                  <li>
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="card-title">Rama Swamy</h4>
+                <p class="card-text">Mechanic</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pt-2">
+            <div class="card border-0">
+              <img
+                src="./img/team-2.jpg"
+                alt=""
+                class="position-absolute top-0 start-0 w-75"
+              />
+              <div class="card-body">
+                <ul class="social">
+                  <li>
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="card-title">Guru Swamy</h4>
+                <p class="card-text">Mechanic</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pt-2">
+            <div class="card border-0">
+              <img
+                src="./img/team-3.jpg"
+                alt=""
+                class="position-absolute top-0 start-0 w-75"
+              />
+              <div class="card-body">
+                <ul class="social">
+                  <li>
+                    <a href="">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="card-title">Manga Amma</h4>
+                <p class="card-text">Mechanic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h4>Subscribe Now and Quench your Wanderlust!</h4>
+          </div>
+          <div class="col-md-4">
+            <button type="button" class="btn">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="pt-5 pb-2">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-md-4">
+            <img src="img/logo_footer.png" alt="" />
+            <p class="mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam laborum quam distinctio voluptate atque nemo!
+            </p>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="bi bi-envelope"></i> info@yourdomain.com
+              </li>
+              <li class="mb-2"><i class="bi bi-telephone"></i> 123 456 7890</li>
+              <li class="mb-2">
+                <i class="bi bi-geo-alt"></i> Your Address, NYC
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="mb-0">Our Recent Post</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="">Lorem, ipsum dolor.</a
+                ><span>September 28, 2022</span>
+              </li>
+              <li class="mb-2">
+                <a href="">Lorem, ipsum dolor.</a
+                ><span>September 28, 2022</span>
+              </li>
+              <li class="mb-2">
+                <a href="">Lorem, ipsum dolor.</a
+                ><span>September 28, 2022</span>
+              </li>
+              <li class="mb-2">
+                <a href="">Lorem, ipsum dolor.</a
+                ><span>September 28, 2022</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Subscribe to our Newletter</h3>
+            <form action="">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="fName" placeholder="Your Name">
+                <label for="fName">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="fEmail" placeholder="Your Email">
+                <label for="fEmail">Email</label>
+              </div>
+              <input type="submit" value="Subscribe">
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
